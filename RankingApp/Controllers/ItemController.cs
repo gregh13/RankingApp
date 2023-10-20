@@ -19,10 +19,10 @@ namespace RankingApp.Controllers
             new ItemModel{Id = 7, Title = "Aliens", ImageId = 7, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 8, Title = "Silent Hill", ImageId = 8, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 9, Title = "The Ring", ImageId = 9, Ranking = 0, ItemType = 1},
-            new ItemModel{Id = 10, Title = "Resident Evil", ImageId = 10, Ranking = 0, ItemType = 1},
+            new ItemModel{Id = 10, Title = "Resident Evil", ImageId = 10, Ranking = 0, ItemType = 1}
         };
 
-        [HttpGet("{itemType:int")]
+        [HttpGet("{itemType:int}")]
         public ItemModel[] Get(int itemType)
         {
             ItemModel[] items = Items.Where(i => i.ItemType == itemType).ToArray();
