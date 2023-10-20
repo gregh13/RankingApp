@@ -23,6 +23,5 @@ const RankItems = () => {
             }
         </main>
     )
-
-
 }
+export default RankItems;
