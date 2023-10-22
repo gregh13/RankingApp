@@ -1,13 +1,13 @@
-﻿import Shining from '../image/movies/shining.png';
-import Exorcist from '../image/movies/exorcist.png';
-import HillsHaveEyes from '../image/movies/hills_have_eyes.png';
-import Hereditary from '../image/movies/hereditary.png';
-import Terrifier from '../image/movies/terrifier.png';
-import Saw from '../image/movies/saw.png';
-import Aliens from '../image/movies/aliens.png';
-import SilentHill from '../image/movies/silent_hill.png';
-import TheRing from '../image/movies/the_ring.png';
-import ResidentEvil from '../image/movies/resident_evil.png';
+﻿import Shining from '../images/movies/shining.png';
+import Exorcist from '../images/movies/exorcist.png';
+import HillsHaveEyes from '../images/movies/hills_have_eyes.png';
+import Hereditary from '../images/movies/hereditary.png';
+import Terrifier from '../images/movies/terrifier.png';
+import Saw from '../images/movies/saw.png';
+import Aliens from '../images/movies/aliens.png';
+import SilentHill from '../images/movies/silent_hill.png';
+import TheRing from '../images/movies/the_ring.png';
+import ResidentEvil from '../images/movies/resident_evil.png';
 
 const MovieImageArr = [
     { id: 1, image: Shining },
