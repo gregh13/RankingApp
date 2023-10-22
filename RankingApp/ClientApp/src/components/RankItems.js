@@ -23,7 +23,9 @@ const RankItems = () => {
             {
                 (items.length > 0) ? items.map((item) =>
                     // <h3>{item.title}</h3>
-                    <img id={`item-${item.id}`} src={MovieImageArr.find(o => o.id === item.imageId)?.image} />
+                    <div className = "unranked-cell">
+                        <img id={`item-${item.id}`} src={MovieImageArr.find(o => o.id === item.imageId)?.image} />
+                    </div>
                     ) : <div>Loading...</div>
             }
             </div>
