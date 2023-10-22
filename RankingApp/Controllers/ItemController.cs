@@ -14,7 +14,7 @@ namespace RankingApp.Controllers
             new ItemModel{Id = 2, Title = "The Exorcist", ImageId = 2, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 3, Title = "The Hills Have Eyes", ImageId = 3, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 4, Title = "Hereditary", ImageId = 4, Ranking = 0, ItemType = 1},
-            new ItemModel{Id = 5, Title = "Terrifer", ImageId = 5, Ranking = 0, ItemType = 1},
+            new ItemModel{Id = 5, Title = "Terrifier", ImageId = 5, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 6, Title = "Saw", ImageId = 6, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 7, Title = "Aliens", ImageId = 7, Ranking = 0, ItemType = 1},
             new ItemModel{Id = 8, Title = "Silent Hill", ImageId = 8, Ranking = 0, ItemType = 1},
