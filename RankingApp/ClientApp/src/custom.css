@@ -52,7 +52,7 @@ main{
 
 .rank-row{
     height: 150px;
-    width: 800px;
+    width: 650px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 3px;
