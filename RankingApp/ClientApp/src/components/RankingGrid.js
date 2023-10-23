@@ -25,23 +25,24 @@ const RankingGrid = ({ items, imgArr }) => {
         const numCells = 5;
 
         for (var a = 1; a <= numCells; a++) {
+            // To handle first column of Tier labels
             rankNum = (a === 1) ? 0 : (numCells * (rowNum - 1)) + a - rowNum;
 
             if (rowNum === 1) {
                 currCollection = cellCollectionTop;
-                label = "Best Tier";
+                label = "Best";
             }
             else if (rowNum === 2) {
                 currCollection = cellCollectionMiddle1;
-                label = "Good Tier";
+                label = "Good";
             }
             else if (rowNum === 3) {
                 currCollection = cellCollectionMiddle2;
-                label = "Mediocre Tier";
+                label = "Mediocre";
             }
             else if (rowNum === 4) {
                 currCollection = cellCollectionBottom;
-                label = "Worst Tier";
+                label = "Worst";
             }
 
             pushCellMarkupToArr(currCollection, rankNum, label);

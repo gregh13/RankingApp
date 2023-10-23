@@ -13,6 +13,16 @@ code {
   border-color: #1861ac;
 }
 
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .items-not-ranked{
     display: flex;
     justify-content:space-evenly;
@@ -30,6 +40,7 @@ code {
     height: 100%;
 }
 
+
 .ranking{
     width: 800px;
     display: flex;
@@ -40,13 +51,27 @@ code {
 }
 
 .rank-row{
-    height: 100px;
+    height: 122px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 3px;
     margin-bottom: 4px;
 }
 
+.rank-cell{
+    width: 122px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.row-label{
+    width: 150px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
 .top-tier{
     background-color: limegreen;
 }
