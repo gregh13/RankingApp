@@ -27,8 +27,6 @@ namespace RankingApp.Controllers
         {
             ItemModel[] items = Items.Where(i => i.ItemType == itemType).ToArray();
 
-            // One second delay to simulate larger data retrieval
-            System.Threading.Thread.Sleep(500);
             return items;
         }
     }
