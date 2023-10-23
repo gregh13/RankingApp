@@ -29,19 +29,19 @@ const RankingGrid = ({ items, imgArr }) => {
 
             if (rowNum === 1) {
                 currCollection = cellCollectionTop;
-                label = "Top Tier";
+                label = "Best Tier";
             }
             else if (rowNum === 2) {
                 currCollection = cellCollectionMiddle1;
-                label = "Middle 1 Tier";
+                label = "Good Tier";
             }
             else if (rowNum === 3) {
                 currCollection = cellCollectionMiddle2;
-                label = "Middle 2 Tier";
+                label = "Mediocre Tier";
             }
             else if (rowNum === 4) {
                 currCollection = cellCollectionBottom;
-                label = "Bottom Tier";
+                label = "Worst Tier";
             }
 
             pushCellMarkupToArr(currCollection, rankNum, label);
