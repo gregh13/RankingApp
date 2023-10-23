@@ -6,9 +6,24 @@ const RankingGrid = ({ items, imgArr }) => {
     const cellCollectionMiddle2 = [];
     const cellCollectionBottom = [];
 
+    function createCellForRow(rowNum) {
+        var rankNum = 0;
+        var currCollection = [];
+        var label = "";
+        const numCells = 5;
+
+        for (var a = 1; a <= numCells; a++) {
+            rankNum = (a === 1) ? 0 : (numCells * (rowNum - 1)) + a - rowNum;
+        }
+
+
+    }
 
     function createCellsforRows() {
-
+        const maxRows = 4;
+        for (var row = 1; row <= maxRows; row++) {
+            createCellsForRow(row);
+        }
     }
 
     function createRowsForGrid() {
