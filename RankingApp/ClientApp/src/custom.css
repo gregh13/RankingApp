@@ -51,7 +51,8 @@ main{
 }
 
 .rank-row{
-    height: 122px;
+    height: 150px;
+    width: 800px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 3px;
@@ -59,7 +60,7 @@ main{
 }
 
 .rank-cell{
-    width: 122px;
+    width: 100px;
     text-align: center;
     display: flex;
     align-items: center;

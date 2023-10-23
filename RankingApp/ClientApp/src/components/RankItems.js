@@ -1,4 +1,5 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿/* eslint-disable jsx-a11y/alt-text */
+import React, { useState, useEffect } from 'react';
 import MovieImageArr from "./MovieImages.js";
 import RankingGrid from "./RankingGrid.js";
 
@@ -47,13 +48,12 @@ const RankItems = () => {
             <div className = "items-not-ranked">
             {
                 (items.length > 0) ? items.map((item) =>
-                    // <h3>{item.title}</h3>
+                    (item.ranking === 0 ) ?
                     <div className = "unranked-cell">
                         <img id={`item-${item.id}`} src={MovieImageArr.find(o => o.id === item.imageId)?.image}
                             style={{ cursor: "pointer" }} draggable="true" onDragStart={drag}
                         />
-
-                    </div>
+                    </div> : null
                     ) : <div>Loading...</div>
             }
             </div>
